@@ -1,0 +1,58 @@
+{
+  "name": "buddydao-webapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "abi-types": "node scripts/abi-types.js"
+  },
+  "dependencies": {
+    "@floating-ui/react": "^0.23.0",
+    "@headlessui/react": "^1.7.14",
+    "@popperjs/core": "^2.11.7",
+    "ahooks": "^3.7.7",
+    "classnames": "^2.3.2",
+    "client-only": "^0.0.1",
+    "color": "^4.2.3",
+    "encoding": "^0.1.13",
+    "ethers": "^5.7.2",
+    "next": "13.4.1",
+    "react": "18.2.0",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "18.2.0",
+    "react-error-boundary": "^4.0.4",
+    "react-hook-form": "^7.43.9",
+    "react-merge-refs": "^2.0.1",
+    "rxjs": "^7.8.1",
+    "server-only": "^0.0.1",
+    "type-fest": "^3.10.0",
+    "wagmi": "0.12.13",
+    "zustand": "^4.3.8"
+  },
+  "devDependencies": {
+    "@emotion/css": "^11.11.0",
+    "@emotion/react": "^11.11.0",
+    "@types/color": "^3.0.3",
+    "@types/node": "18.16.5",
+    "@types/react": "18.2.6",
+    "@types/react-copy-to-clipboard": "^5.0.4",
+    "@types/react-dom": "18.2.4",
+    "autoprefixer": "^10.4.14",
+    "eslint": "8.40.0",
+    "eslint-config-next": "13.4.1",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "postcss": "^8.4.23",
+    "prettier": "^2.8.8",
+    "sass": "^1.62.1",
+    "tailwindcss": "^3.3.2",
+    "typescript": "5.0.4"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "packageManager": "yarn@3.5.0"
+}

@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+
+    /**
+     * https://github.com/prettier/eslint-plugin-prettier#recommended-configuration
+     */
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "react-hooks/exhaustive-deps": ["off"]
+  },
+  // exclude
+  "ignorePatterns": ["src/abi-types/**/*"]
+}

@@ -1,0 +1,1 @@
+export { BuddyDaoAddress } from '@/envs';
